@@ -11,7 +11,8 @@
     yum install htop
 
 ## Sử dụng: #htop
-1.png
+
+![](1.png)
 
 *Mức dùng CPU
 Thanh tiến trình CPU thẻ hiện mức dùng CPU của hệ thống. Số lượng thanh tiến trình CPU tương ứng với số lượng CPU/Core của máy chủ. Thanh tiến trình bao gồm các màu khác nhau. Mỗi màu thể hiện một ý nghĩa riêng: ở đây là 4 thread
@@ -34,14 +35,14 @@ Bên dưới thanh tiến trình CPU là thanh bộ nhớ RAM và Swap. Hai than
 
         Systemload hay còn gọi là load thể hiện số công việc hiện tại hệ thống đang thực thi
         Load everage cho ta thấy được trung bình khối lượng công việc hệ thống phải xử lý trong mỗi khoảng thời gian 1 phút, 5 phút và 15 phút
-        
-2.png: tai tb
+        
+![](2.png)
 
 * Thông tin tiến trình
 
 Htop sẽ liệt kê tất cả các tiến trình đang chạy trên hệ thống với các thông tin kèm theo như sau:
 
-3.png
+![](3.png)
 
 Ý nghĩa từng cột giá trị như sau:
 
@@ -60,10 +61,11 @@ Htop sẽ liệt kê tất cả các tiến trình đang chạy trên hệ thố
 
 * Các phím tắt
 
-        Di chuyển dấu nhắc trong danh sách các tiến trình theo chiều dọc hoặc ngang bằng phím mũi tên
-        Kill mộ tiến trình bằng cách nhấn phím F9
-        Renice một tiến trình bằng cách nhấn phím F7 hoặc F8
-        Liệt kê các tập tin được sử dụng bởi một tiến trình bằng cách nhấn phím I
-        Chỉ hiển thị tiến trình của một người dùng bằng cách nhấn phím U
-        Hiển thị các tiến trình được sắp xếp theo một cột bất kỳ bằng cách nhấn phím F6
-        Hiển thị các tiến trình trong chế độ xem dạng cây bằng cách nhấn phím F5
+1. Di chuyển dấu nhắc trong danh sách các tiến trình theo chiều dọc hoặc ngang bằng phím mũi tên2. 
+2. Kill mộ tiến trình bằng cách nhấn phím F9
+3. Renice một tiến trình bằng cách nhấn phím F7 hoặc F8: Thay đổi giá trị NI: Giá trị nice value của tiến trình
+4 Liệt kê các tiến trình theo tên người dùng bằng cách nhấn phím U
+5. Hiển thị các tiến trình được sắp xếp theo một cột bất kỳ bằng cách nhấn phím F6
+6. Hiển thị các tiến trình trong chế độ xem dạng cây bằng cách nhấn phím F5
+
+![](4.png)
